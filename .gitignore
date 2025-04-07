@@ -1,1 +1,5 @@
-.env
+/vendor
+/.env
+/storage/*.key
+/storage/logs/*.log
+/bootstrap/cache/*.php
