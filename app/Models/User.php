@@ -9,8 +9,12 @@
  protected $table = 'tbl_user';
  // column sa table
  protected $fillable = [
- 'username', 'password','gender'
+ 'username', 'password','gender','jobid'
          ];
          public $timestamps = false;
        protected $primaryKey ='userid';
+       
+       protected $hidden = [
+         'password',
+       ];
     }
